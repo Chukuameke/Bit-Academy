@@ -22,6 +22,9 @@ code {
   --darkpurple: #4B16CD;
   --lightpurple: #CE19FE;
   --colorwhite: #fff;
+  --border:0px;
+  --outline: 0px;
+  --colorblack:#000;
 }
 
 /* navbar section */
@@ -43,22 +46,36 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 155px;
+  gap: 280px;
 }
 
 #navbar ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 45px;
+  gap: 55px;
+}
+#navbar ul li{
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--colorblack);
 }
 
-.navabar-btn {
-  width: 187px;
+.navbar-btn  button{
+  width: 167px;
   height: 69px;
   flex-shrink: 0;
   border-radius: 10px;
-  background: linear-gradient(98deg, #541AE1 -1.54%, #CE19FE 118.84%);
+  background: linear-gradient(259deg, #4B16CD -0.24%, #CE19FE 116.98%);
+  border: var(--border);
+  outline: var(--outline);
+  font-size: 24px;
+  color: var(--colorwhite);
+  font-weight: 600;
+  cursor: pointer;
+}
+#mobile i{
+  color: var(--colorblack);
 }
 
 /* hero section */
@@ -88,8 +105,6 @@ nav {
 }
 
 .hero-text p {
-  leading-trim: both;
-  text-edge: cap;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
