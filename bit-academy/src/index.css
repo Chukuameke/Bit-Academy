@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root{
+  --darkpurple:#4B16CD;
+  --lightpurple:#CE19FE;
+  --colorwhite:#fff;
+}
+/* hero section */
+
+.background{
+  background: linear-gradient(to right, #CE19FE, #4B16CD);
+  height:521px;
+  width: 100%;
+}
