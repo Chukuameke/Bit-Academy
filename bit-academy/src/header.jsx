@@ -18,7 +18,7 @@ class Header extends Component {
             <div className="navbar-logo">
               <img src={Logo} alt="Logo" />
             </div>
-            <div className="nav-bar-list" id='navbar'>
+            <div className={this.state.clicked ? "#navbar active" : "#navbar"} id='navbar'>
               <div className="nav-list">
                 <ul>
                   <a href="index.html">

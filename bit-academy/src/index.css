@@ -33,6 +33,9 @@ nav {
   height: 109px;
   background: var(--colorwhite);
   box-shadow: 0px 0px 20px 4px rgba(63, 62, 62, 0.14);
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 
 .navBar {
@@ -61,7 +64,7 @@ nav {
   color: var(--colorblack);
 }
 
-.navbar-btn  button{
+.navbar-btn button{
   width: 167px;
   height: 69px;
   flex-shrink: 0;
@@ -77,6 +80,9 @@ nav {
 #mobile i{
   color: var(--colorblack);
 }
+#mobile{
+  display: none;
+}
 
 /* hero section */
 
@@ -84,7 +90,7 @@ nav {
   background: linear-gradient(to right, #CE19FE, #4B16CD);
   height: 521px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 130px !important;
 }
 
 .hero-container {
@@ -122,7 +128,48 @@ nav {
 }
 
 
-
+@media(max-width:900px){
+  nav{
+    z-index: 9999;
+  }
+  #navbar {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 8px;
+    flex-direction: column;
+    position: fixed;
+    top: 90px;
+    width: 200px;
+    right: -300px;
+    height: 100vh;
+    background-color: var(--darkpurple);
+  }
+  #navbar.active{
+    right: 0px;
+  }
+  #navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+  }
+  #navbar ul li{
+    color: var(--colorwhite);
+    position: absolute;
+    left: 0;
+    padding: 0px 20px;
+  }
+  #mobile{
+    display:block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #mobile i{
+    font-size: 25px;
+  }
+}
 @media (min-width: 600px) {
   .hero-text h1 {
     font-size: 18px;
