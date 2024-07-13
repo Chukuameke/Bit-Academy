@@ -1,6 +1,7 @@
 import Header from "./header"
 import Hero from "./hero"
 import Program from "./program";
+import Form from "./form"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Program />
+      <Form />
     </>
   );
 }

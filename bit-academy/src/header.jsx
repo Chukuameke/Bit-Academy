@@ -24,7 +24,7 @@ class Header extends Component {
                   <a href="index.html">
                     <li>Home</li>
                   </a>
-                  <a href="index.html">
+                  <a href="home" id='home'>
                     <li>Program</li>
                   </a>
                   <a href="index.html">
