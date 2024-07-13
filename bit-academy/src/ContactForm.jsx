@@ -37,46 +37,60 @@ const Form = () => {
 
   return (
     <div>
-      <h2>Contact Us</h2>
-      <form onSubmit={handleSubmit}>
-      <div>
-          <input 
-            type="text" 
-            name="name" 
-            placeholder="Full Name" 
-            value={formData.name} 
-            onChange={handleChange} 
-            required 
-          />
-          <input 
-            type="number" 
-            name="phoneNo" 
-            placeholder="Phone Number" 
-            value={formData.phoneNo} 
-            onChange={handleChange} 
-            required 
-          />
+      <div className="form-container">
+      <div className="form-con">
+      <div className='program-border'>
+          <h1>Participant’s Info</h1>
         </div>
-        <div>
-          <input 
-            type="text" 
-            name="occupation" 
-            placeholder="Occupation" 
-            value={formData.occupation} 
-            onChange={handleChange} 
-            required 
-          />
-          <input 
-            type="email" 
-            name="email" 
-            placeholder="Email" 
-            value={formData.email} 
-            onChange={handleChange} 
-            required 
-          />
+      </div>
+
+<div className="input-background">
+  <div className="input-content">
+        <form onSubmit={handleSubmit}>
+          <div className="form-text">
+            <p>FILL IN PERSONAL DETAILS</p>
+          </div>
+          <div className='input'> 
+            <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+            <input
+              type="number"
+              name="phoneNo"
+              placeholder="Phone Number"
+              value={formData.phoneNo}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className='input'>
+            <input
+              type="text"
+              name="occupation"
+              placeholder="Occupation"
+              value={formData.occupation}
+              onChange={handleChange}
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <button type="submit">Send</button>
+        </form>
         </div>
-        <button type="submit">Send</button>
-      </form>
+        </div>
+      </div>
     </div>
   );
 };

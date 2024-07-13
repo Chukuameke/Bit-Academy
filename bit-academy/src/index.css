@@ -166,7 +166,7 @@ nav {
 }
 
 .card {
-  width: 404px;
+  width: 454px;
   height: 480px;
   flex-shrink: 0;
   border-radius: 22px;
@@ -176,21 +176,25 @@ nav {
 
   box-shadow: 0px 20px 40px 0px rgba(59, 64, 86, 0.15);
 }
+.card img{
+  width: 454px;
+}
 
 .card-write-up {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .card-text-heading {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .card-text-heading span {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .card-text {
-  padding: 0px 30px;
+  padding: 0px 20px;
 }
 
 .card1 {
@@ -227,6 +231,7 @@ nav {
   flex-wrap: wrap;
 }
 
+
 .input input {
   width: 406px;
   height: 72px;
@@ -246,9 +251,8 @@ nav {
 
 .input-background {
   display: grid;
-  justify-content: center;
+  justify-content: center !important;
   margin-top: 20px;
-
 }
 
 .input-content {
