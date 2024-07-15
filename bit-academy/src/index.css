@@ -176,7 +176,8 @@ nav {
 
   box-shadow: 0px 20px 40px 0px rgba(59, 64, 86, 0.15);
 }
-.card img{
+
+.card img {
   width: 454px;
 }
 
@@ -243,7 +244,8 @@ nav {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   flex: 1.0 10rem !important;
 }
-.input{
+
+.input {
   display: flex;
   gap: 80px;
   flex-wrap: wrap !important;
@@ -267,7 +269,9 @@ nav {
   gap: 13px;
 }
 
-.input-content, .form-text, .input{
+.input-content,
+.form-text,
+.input {
   margin-top: 20px;
 }
 
@@ -282,6 +286,109 @@ nav {
   align-items: center;
   text-align: center;
   font-weight: bold;
+}
+
+@media(max-width:600px) and (min-width:100px) {
+  .background {
+    background: linear-gradient(to bottom, #CE19FE, #4B16CD);
+    height: 130vh;
+    width: 100%;
+    margin-top: 130px !important;
+  }
+
+  .hero-text h1 br {
+    display: none;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    padding: 0px 10px;
+  }
+
+  .input {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap !important;
+    flex-direction: column;
+  }
+
+  .program-container {
+    width: 100%;
+    height: 310vh;
+    background-color: var(--lighterpurple);
+    margin-top: 136px;
+  }
+
+  .card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .card2 {
+    margin-top: 30px;
+  }
+
+  .card5 {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .program-border {
+    display: flex;
+    width: 70%;
+    height: 2vh;
+    padding: 22px 25px;
+
+  }
+
+  .input-content {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height:100vh;
+    gap: 13px;
+  }
+
+  .input input {
+    width: 90%;
+    height: 2vh !important;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+
+    background: #FFF;
+
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .input-content,
+.form-text,
+.input {
+  margin-top:0px;
+}
+.input-background {
+  display: grid;
+  justify-content:left !important;
+  margin-top: 20px;
+}
+
 }
 
 @media(max-width:900px) {
