@@ -220,7 +220,23 @@ nav {
 
 /* form section */
 
-
+/* footer section */
+.footer-background{
+  width: 100%;
+  height: 20vh;
+  background-color: var(--lighterpurple);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-right,
+.footer-left{
+  display: flex;
+  justify-content: center;
+}
+.footer-list{
+  display: grid;
+  align-items:;
+}
 @media(max-width:600px) and (min-width:100px) {
   .background {
     background: linear-gradient(to bottom, #CE19FE, #4B16CD);
