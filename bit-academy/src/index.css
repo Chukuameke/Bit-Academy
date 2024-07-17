@@ -235,7 +235,7 @@ nav {
 }
 .footer-list{
   display: grid;
-  align-items:;
+  
 }
 @media(max-width:600px) and (min-width:100px) {
   .background {
@@ -376,6 +376,12 @@ nav {
   width: 100% !important;
   height: auto;
   background-color: var(--lightpurple);
+}
+.footer-right,
+.footer-left{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 }
 
