@@ -179,8 +179,19 @@ const Form = () => {
               </div>
               <button type="submit" className='form-btn'>Send</button>
             </form>
+           
           </div>
+          
         </div>
+      <div className="flex-1">
+      <div className="telegram">
+              <p>Join others on our <b>Telegram</b> group for the live <b>Presentation</b> of your course/program Now </p>
+              <a href="https://t.me/+YPLaVF9SkSU5MThk"><button className='get-started'>Get Started</button></a>
+            </div>
+            <div>
+              <p>invisible</p>
+            </div>
+      </div>
       </div>
     </div>
   );

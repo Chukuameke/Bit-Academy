@@ -221,7 +221,7 @@ nav {
 /* form section */
 .form-container {
   width: 100%;
-  height:auto;
+  height: auto;
   display: grid;
   /* justify-content: center; */
   margin-top: 40px;
@@ -262,7 +262,7 @@ nav {
 }
 
 .input input {
-  width:36%;
+  width: 36%;
   height: 10vh;
   margin-top: 10px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.086);
@@ -275,10 +275,11 @@ nav {
   justify-content: center;
   gap: 320px !important;
 }
-.invisble{
+
+.invisble {
   width: 100px;
   height: 20px;
-  background-color:rgba(75, 22, 205, 0.40);
+  background-color: rgba(75, 22, 205, 0.40);
 }
 
 .skill-container {
@@ -290,22 +291,57 @@ nav {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   margin-top: 10px;
 }
-.skill-container div{
+
+.skill-container div {
   padding: 7px 20px;
 }
-.skill1{
+
+.skill1 {
   margin-left: 39px !important;
 }
-.skill2{
+
+.skill2 {
   margin-left: 50px;
 }
-.form-btn{
+
+.form-btn {
   width: 115px;
-height: 34px;
-flex-shrink: 0;
-background-color: var(--darkpurple);
+  height: 34px;
+  flex-shrink: 0;
+  background-color: var(--darkpurple);
+  color: var(--colorwhite);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: 30px 0px !important;
 }
 
+.get-started {
+  width: 187px;
+  height: 69px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(98deg, #541AE1 -1.54%, #CE19FE 118.84%);
+  color: var(--colorwhite);
+  border: none;
+}
+.telegram p{
+  font-size: 20px;
+}
+
+.flex-1{
+display: flex;
+justify-content: center;
+gap:50px;
+}
+.form-con{
+  display:flex;
+  justify-content: center;
+}
 
 /* footer section */
 .footer-background {

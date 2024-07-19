@@ -33,7 +33,7 @@ class Header extends Component {
                 </ul>
               </div>
               <div className="navbar-btn">
-                <button>Get Started</button>
+               <a href="https://t.me/+YPLaVF9SkSU5MThk"> <button>Get Started</button></a>
               </div>
             </div>
           </div>
