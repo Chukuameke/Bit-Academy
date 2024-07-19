@@ -111,6 +111,10 @@ const Form = () => {
                 />
               </div>
               <div className='skills-option'>
+              <div className="form-text">
+                <p>FILL IN PERSONAL DETAILS</p>
+              </div>
+              <div className="skill-container">
                 <div>
                   <input
                     type="checkbox"
@@ -164,6 +168,7 @@ const Form = () => {
                   />
                   <label htmlFor="skill-ai-integration">AI Integration</label>
                 </div>
+              </div>
               </div>
               <button type="submit">Send</button>
             </form>
